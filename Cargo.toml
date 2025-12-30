@@ -1,0 +1,23 @@
+[package]
+name = "serde_context"
+version = "0.1.0"
+authors = ["Benjamin Lefebvre"]
+categories = ["encoding"]
+description = "Convenient contextful (de)serialization compatible with the serde ecosystem"
+documentation = "https://docs.rs/serde_context"
+edition = "2024"
+keywords = ["deserialization", "serde", "serialization", "stateful"]
+license = "MIT OR Apache-2.0"
+repository = "https://codeberg.org/blefebvre/serde_context"
+
+[dependencies]
+rustc-hash = { version = "2.1.1", default-features = false, features = ["std"] }
+serde_core = { version = "1.0.228", default-features = false }
+
+[dev-dependencies]
+anyhow = { version = "1.0.100", default-features = false }
+serde = { version = "1.0.228", default-features = false, features = ["derive", "std"] }
+serde_json = { version = "1.0.145", default-features = false, features = ["std"] }
+
+[package.metadata.docs.rs]
+rustdoc-args = ["--cfg", "docsrs", "-Z", "unstable-options", "--generate-link-to-definition"]
