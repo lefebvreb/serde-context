@@ -41,7 +41,7 @@
 //! This minimal, contrived example showcases the basics of this crate: passing context
 //! to a serialization process and accessing it within a [`Serialize`](https://docs.rs/serde/latest/serde/trait.Serialize.html)
 //! implementation. You can find more serious examples in this crate's
-//! [examples directory](https://codeberg.org/blefebvre/serde_context/src/branch/master/examples).
+//! [examples directory](https://github.com/lefebvreb/serde-context/tree/main/examples).
 //!
 //! More concretely here, we are inserting a multiplier (`MyMultiplier`) inside of
 //! this serialization's global context, and then using it to multiply every numbers
@@ -90,7 +90,7 @@ mod core;
 /// # Example
 ///
 /// This is only a minimal example for this function's usage. You can find more in this [`crate`]'s
-/// top-level documentation as well as [its examples directory](https://codeberg.org/blefebvre/serde_context/src/branch/master/examples).
+/// top-level documentation as well as [its examples directory](https://github.com/lefebvreb/serde-context/tree/main/examples).
 ///
 /// ```rust
 /// # use serde_context::serialize_with_context;
@@ -121,7 +121,7 @@ where
 /// # Example
 ///
 /// This is only a minimal example for this function's usage. You can find more in this [`crate`]'s
-/// top-level documentation as well as [its examples directory](https://codeberg.org/blefebvre/serde_context/src/branch/master/examples).
+/// top-level documentation as well as [its examples directory](https://github.com/lefebvreb/serde-context/tree/main/examples).
 ///
 /// ```rust
 /// # use serde_context::deserialize_with_context;
@@ -170,7 +170,7 @@ where
 /// # Example
 ///
 /// This is only a minimal example for this function's usage. You can find more in this [`crate`]'s
-/// top-level documentation as well as [its examples directory](https://codeberg.org/blefebvre/serde_context/src/branch/master/examples).
+/// top-level documentation as well as [its examples directory](https://github.com/lefebvreb/serde-context/tree/main/examples).
 ///
 /// ```rust
 /// # use serde_context::{context_scope, MissingContextError};

@@ -5,7 +5,7 @@
 
 Convenient contextful (de)serialization compatible with the `serde` ecosystem.
 
-You can find examples in the this crate's [examples directory](https://codeberg.org/blefebvre/serde_context/src/branch/master/examples).
+You can find examples in the this crate's [examples directory](https://github.com/lefebvreb/serde-context/tree/main/examples).
 
 ## Limitations
 

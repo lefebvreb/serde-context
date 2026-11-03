@@ -93,7 +93,7 @@ impl ContextCell {
 /// [`Deserialize`](https://docs.rs/serde/latest/serde/trait.Deserialize.html)
 /// implementations by calling [`context_scope`](crate::context_scope). See these function's respective
 /// documentations for precise usage, as well as this [`crate`]'s top-level documentation and
-/// [its examples directory](https://codeberg.org/blefebvre/serde_context/src/branch/master/examples).
+/// [its examples directory](https://github.com/lefebvreb/serde-context/tree/main/examples).
 pub trait Context: Sized {
     #[doc(hidden)]
     fn __insert(self, cx: &ContextCell);

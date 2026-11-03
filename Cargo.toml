@@ -8,7 +8,7 @@ documentation = "https://docs.rs/serde_context"
 edition = "2024"
 keywords = ["deserialization", "serde", "serialization", "stateful"]
 license = "MIT OR Apache-2.0"
-repository = "https://codeberg.org/blefebvre/serde_context"
+repository = "https://github.com/lefebvreb/serde-context"
 
 [dependencies]
 rustc-hash = { version = "2.1.1", default-features = false, features = ["std"] }
