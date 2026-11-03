@@ -1,6 +1,6 @@
 [package]
 name = "serde_context"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Benjamin Lefebvre"]
 categories = ["encoding"]
 description = "Convenient contextful (de)serialization compatible with the serde ecosystem"
